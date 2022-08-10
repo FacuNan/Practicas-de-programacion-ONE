@@ -1,0 +1,23 @@
+<html>
+    <meta charset="UTF-8">
+    <script>
+           function saltarLinea(){
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function imprimir(frase){
+             document.write(frase);
+                  saltarLinea();
+        }
+        var anioMundial=1930;
+        var limite = parseInt(prompt("Ingrese el año limite para calcular los años de los mundiales"));
+        while(anioMundial <= limite){
+            anioMundial = anioMundial + 4;
+        imprimir("Hubo mundial en el año " + anioMundial);
+        }
+      imprimir("fin")
+    </script>
+
+</html>
